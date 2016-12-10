@@ -44,7 +44,7 @@
 /**
  Called when getAllTags method ends with success
  
- @param categories The array containing all the site's tags
+ @param tags The array containing all the site's tags
  */
 -(void) didReceiveTagsArray:(NSArray *)tags;
 
@@ -71,13 +71,6 @@
 /**
  Retrieves a specific post
  
- @param categoryId The unique identifier of the category to be retrieved
- */
--(void) getCategoryWithId:(NSString *)categoryId;
-
-/**
- Retrieves a specific post
-
  @param postId The unique identifier of the post to be retrieved
  */
 -(void) getPostWithId:(NSString *)postId;
@@ -91,6 +84,13 @@
  Retrieves the list of the site's categories
  */
 -(void) getAllCategories;
+
+/**
+ Retrieves a specific category
+ 
+ @param categoryId The unique identifier of the category to be retrieved
+ */
+-(void) getCategoryWithId:(NSString *)categoryId;
 
 /**
  Retrieves all tags from the blog at the base URL
