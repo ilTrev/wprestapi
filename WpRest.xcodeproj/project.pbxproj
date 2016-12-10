@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B71EBB001DF9C5C000D4A92B /* WordpressObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EBAFF1DF9C5C000D4A92B /* WordpressObjects.m */; };
+		B775BCAE1DF9BA3800E4AFBF /* WpRestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B775BCAD1DF9BA3800E4AFBF /* WpRestObject.m */; };
+		B7B168431DF9B84600FF8324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B168421DF9B84600FF8324 /* main.m */; };
+		B7B168461DF9B84600FF8324 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B168451DF9B84600FF8324 /* AppDelegate.m */; };
+		B7B168491DF9B84600FF8324 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B168481DF9B84600FF8324 /* ViewController.m */; };
+		B7B1684C1DF9B84600FF8324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B1684A1DF9B84600FF8324 /* Main.storyboard */; };
+		B7B1684E1DF9B84600FF8324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B1684D1DF9B84600FF8324 /* Assets.xcassets */; };
+		B7B168511DF9B84600FF8324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B1684F1DF9B84600FF8324 /* LaunchScreen.storyboard */; };
+		FDB220BD447529E592398069 /* libPods-WpRest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAFB2B70E7697E07ED595F0 /* libPods-WpRest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BAFB2B70E7697E07ED595F0 /* libPods-WpRest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WpRest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E19BE61EF584972EA2E7C0 /* Pods-WpRest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WpRest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WpRest/Pods-WpRest.debug.xcconfig"; sourceTree = "<group>"; };
+		A7899F8FC7B579C6E9A46ADA /* Pods-WpRest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WpRest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WpRest/Pods-WpRest.release.xcconfig"; sourceTree = "<group>"; };
+		B71EBAFE1DF9C5C000D4A92B /* WordpressObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WordpressObjects.h; path = WpRest/API/WordpressObjects.h; sourceTree = "<group>"; };
+		B71EBAFF1DF9C5C000D4A92B /* WordpressObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WordpressObjects.m; path = WpRest/API/WordpressObjects.m; sourceTree = "<group>"; };
+		B775BCAC1DF9BA3800E4AFBF /* WpRestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WpRestObject.h; path = WpRest/API/WpRestObject.h; sourceTree = "<group>"; };
+		B775BCAD1DF9BA3800E4AFBF /* WpRestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WpRestObject.m; path = WpRest/API/WpRestObject.m; sourceTree = "<group>"; };
+		B7B1683E1DF9B84600FF8324 /* WpRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WpRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B168421DF9B84600FF8324 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7B168441DF9B84600FF8324 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7B168451DF9B84600FF8324 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7B168471DF9B84600FF8324 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7B168481DF9B84600FF8324 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7B1684B1DF9B84600FF8324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7B1684D1DF9B84600FF8324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7B168501DF9B84600FF8324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7B168521DF9B84600FF8324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7B1683B1DF9B84600FF8324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB220BD447529E592398069 /* libPods-WpRest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F479A3C35C291CDF272CF52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFB2B70E7697E07ED595F0 /* libPods-WpRest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B775BCAB1DF9BA0900E4AFBF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B775BCAC1DF9BA3800E4AFBF /* WpRestObject.h */,
+				B775BCAD1DF9BA3800E4AFBF /* WpRestObject.m */,
+				B71EBAFE1DF9C5C000D4A92B /* WordpressObjects.h */,
+				B71EBAFF1DF9C5C000D4A92B /* WordpressObjects.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		B7B168351DF9B84600FF8324 = {
+			isa = PBXGroup;
+			children = (
+				B775BCAB1DF9BA0900E4AFBF /* API */,
+				B7B168401DF9B84600FF8324 /* WpRest */,
+				B7B1683F1DF9B84600FF8324 /* Products */,
+				B80F97803758331DF8DE9FD7 /* Pods */,
+				8F479A3C35C291CDF272CF52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B1683F1DF9B84600FF8324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B1683E1DF9B84600FF8324 /* WpRest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B168401DF9B84600FF8324 /* WpRest */ = {
+			isa = PBXGroup;
+			children = (
+				B7B168441DF9B84600FF8324 /* AppDelegate.h */,
+				B7B168451DF9B84600FF8324 /* AppDelegate.m */,
+				B7B168471DF9B84600FF8324 /* ViewController.h */,
+				B7B168481DF9B84600FF8324 /* ViewController.m */,
+				B7B1684A1DF9B84600FF8324 /* Main.storyboard */,
+				B7B1684D1DF9B84600FF8324 /* Assets.xcassets */,
+				B7B1684F1DF9B84600FF8324 /* LaunchScreen.storyboard */,
+				B7B168521DF9B84600FF8324 /* Info.plist */,
+				B7B168411DF9B84600FF8324 /* Supporting Files */,
+			);
+			path = WpRest;
+			sourceTree = "<group>";
+		};
+		B7B168411DF9B84600FF8324 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7B168421DF9B84600FF8324 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B80F97803758331DF8DE9FD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84E19BE61EF584972EA2E7C0 /* Pods-WpRest.debug.xcconfig */,
+				A7899F8FC7B579C6E9A46ADA /* Pods-WpRest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7B1683D1DF9B84600FF8324 /* WpRest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B168551DF9B84600FF8324 /* Build configuration list for PBXNativeTarget "WpRest" */;
+			buildPhases = (
+				5E057A1C63664A39309F0D6E /* [CP] Check Pods Manifest.lock */,
+				B7B1683A1DF9B84600FF8324 /* Sources */,
+				B7B1683B1DF9B84600FF8324 /* Frameworks */,
+				B7B1683C1DF9B84600FF8324 /* Resources */,
+				53C241CD4706B7087B44C119 /* [CP] Embed Pods Frameworks */,
+				3240AFF3841118F67811BBB5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WpRest;
+			productName = WpRest;
+			productReference = B7B1683E1DF9B84600FF8324 /* WpRest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7B168361DF9B84600FF8324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Marco Donati";
+				TargetAttributes = {
+					B7B1683D1DF9B84600FF8324 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 53QBXK59SE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B7B168391DF9B84600FF8324 /* Build configuration list for PBXProject "WpRest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7B168351DF9B84600FF8324;
+			productRefGroup = B7B1683F1DF9B84600FF8324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7B1683D1DF9B84600FF8324 /* WpRest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B1683C1DF9B84600FF8324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B168511DF9B84600FF8324 /* LaunchScreen.storyboard in Resources */,
+				B7B1684E1DF9B84600FF8324 /* Assets.xcassets in Resources */,
+				B7B1684C1DF9B84600FF8324 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3240AFF3841118F67811BBB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WpRest/Pods-WpRest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53C241CD4706B7087B44C119 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WpRest/Pods-WpRest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E057A1C63664A39309F0D6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7B1683A1DF9B84600FF8324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71EBB001DF9C5C000D4A92B /* WordpressObjects.m in Sources */,
+				B7B168491DF9B84600FF8324 /* ViewController.m in Sources */,
+				B775BCAE1DF9BA3800E4AFBF /* WpRestObject.m in Sources */,
+				B7B168461DF9B84600FF8324 /* AppDelegate.m in Sources */,
+				B7B168431DF9B84600FF8324 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7B1684A1DF9B84600FF8324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7B1684B1DF9B84600FF8324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7B1684F1DF9B84600FF8324 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7B168501DF9B84600FF8324 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7B168531DF9B84600FF8324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7B168541DF9B84600FF8324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7B168561DF9B84600FF8324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E19BE61EF584972EA2E7C0 /* Pods-WpRest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 53QBXK59SE;
+				INFOPLIST_FILE = WpRest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.iltrev.WpRest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7B168571DF9B84600FF8324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7899F8FC7B579C6E9A46ADA /* Pods-WpRest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 53QBXK59SE;
+				INFOPLIST_FILE = WpRest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.iltrev.WpRest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7B168391DF9B84600FF8324 /* Build configuration list for PBXProject "WpRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B168531DF9B84600FF8324 /* Debug */,
+				B7B168541DF9B84600FF8324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B168551DF9B84600FF8324 /* Build configuration list for PBXNativeTarget "WpRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B168561DF9B84600FF8324 /* Debug */,
+				B7B168571DF9B84600FF8324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7B168361DF9B84600FF8324 /* Project object */;
+}
